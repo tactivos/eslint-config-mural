@@ -1,11 +1,21 @@
 module.exports = {
+  ecmaFeatures: {
+    jsx: true
+  },
+
   extends: [
-    './react'
+    'eslint-config-airbnb-base/rules/strict',
+    'eslint-config-airbnb/rules/react'
   ],
 
   plugins: [
     'react-native'
   ],
 
-  rules: {}
+  rules: {
+    'react-native/split-platform-components': 'off',
+    'react-native/no-unused-styles': 'error',
+    'react-native/no-inline-styles': 'error',
+    'react-native/no-color-literals': 'error'
+  }
 }

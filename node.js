@@ -12,6 +12,7 @@ module.exports = {
   ],
 
   rules: {
-    'node/exports-style': 0
+    'node/exports-style': 0,
+    'node/shebang': 0
   }
 }
