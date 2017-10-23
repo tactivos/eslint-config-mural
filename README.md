@@ -52,6 +52,5 @@ Just install:
 
 1. Make sure to have the [Package Control](https://packagecontrol.io/) installed.
 2. Install [SublimeLinter](http://www.sublimelinter.com/en/latest/).
-  * On OSX, make sure to have [SublimeFixMacPath](https://github.com/int3h/SublimeFixMacPath).
+    * On OSX, make sure to have [SublimeFixMacPath](https://github.com/int3h/SublimeFixMacPath).
 3. Install and configure [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint).
-
