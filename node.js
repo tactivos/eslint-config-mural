@@ -4,8 +4,8 @@ module.exports = {
   },
 
   extends: [
-    'plugin:node/recommended'
-  ],
+    'eslint-plugin-node/lib/recommended'
+  ].map(require.resolve),
 
   plugins: [
     'node'
