@@ -7,7 +7,7 @@ Using this config you won't need to install any other dependencies/plugins, and 
 ## Usage
 
 ```bash
-npm install --save-dev eslint@^4.9.0 eslint-config-mural@^1.0.1
+npm install --save-dev eslint eslint-config-mural
 ```
 
 For a basic javascript linting, add the file `.eslintrc` with:
